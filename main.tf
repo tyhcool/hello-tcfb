@@ -12,7 +12,7 @@ provider "aws" {
 //--------------------------------------------------------------------
 // Modules
 module "devinstance" {
-	source  = "app.terraform.io/ORGNAME/devinstance/aws"
+	source  = "app.terraform.io/y_tang_org/devinstance/aws"
 	version = "0.0.2"
 
 	hello_tf_instance_type = "t2.small"
